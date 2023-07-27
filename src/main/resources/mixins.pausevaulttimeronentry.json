@@ -1,0 +1,14 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "refmap": "mixins.pausevaulttimeronentry.refmap.json",
+  "package": "com.radimous.pausevaulttimeronentry.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
