@@ -10,8 +10,8 @@ public class Config {
 
     static {
         ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
-        SERVER_BUILDER.comment("How many block does player have to move to start the timer, default: 20 (20 is enough to move freely in first room)");
-        maxDist = SERVER_BUILDER.defineInRange("maxDistance", 20, 1, 200);
+        SERVER_BUILDER.comment("How many block does player have to move to start the timer, default: 18 (enough to move freely in first room)");
+        maxDist = SERVER_BUILDER.defineInRange("maxDistance", 18, 1, 200);
 
         SERVER_BUILDER.comment("Pauses vault timer when you enter vault, default: true");
         pauseVaultTimer = SERVER_BUILDER.define("pauseVaultTimer", true);
